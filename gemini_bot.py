@@ -4,7 +4,7 @@ import os
 import google.generativeai as genai
 
 # ✅ Setup API key securely (change for your environment if needed)
-GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyBxE7I0reG5olgoWoUJ7lHfmIhwzp18jyg"
+GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY") 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # ✅ Load Gemini model
