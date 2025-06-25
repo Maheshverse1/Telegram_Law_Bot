@@ -7,7 +7,7 @@ from gemini_bot import get_response as gemini_respond
 from ollama_bot import get_response as ollama_respond
 
 # === Setup ===
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or "7993696858:AAHeUB_d9oTkr3OGkdlKV3WyySygyxXP4Ho"
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") 
 
 # === Per-user session memory ===
 user_sessions = {}       # user_id -> ChatSession
